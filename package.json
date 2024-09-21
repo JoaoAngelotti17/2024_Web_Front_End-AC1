@@ -1,0 +1,23 @@
+{
+  "name": "2024_web_front_end",
+  "version": "1.0.0",
+  "description": "Aulas práticas da disciplina de Desenvolvimento Web Front-End ministrada na Facens no 2º Semestre de 2024",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "production": "pm2 start index.js –name appx-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.2",
+    "pm2": "^5.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
